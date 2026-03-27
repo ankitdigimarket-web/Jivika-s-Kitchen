@@ -17,7 +17,7 @@ const menuItems = [
     description: '2 pcs Chicken Curry, 4 Roti, Rice, Salad',
     price: '₹180',
     type: 'non-veg',
-    image: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1606843046080-45bf7a23c39f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     popular: true,
   },
   {
@@ -26,7 +26,7 @@ const menuItems = [
     description: 'Rich Paneer Gravy, 2 Parathas, Jeera Rice',
     price: '₹160',
     type: 'veg',
-    image: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     popular: false,
   },
   {
@@ -35,7 +35,7 @@ const menuItems = [
     description: '2 Eggs in homestyle gravy, 4 Roti, Rice, Salad',
     price: '₹140',
     type: 'non-veg',
-    image: 'https://images.unsplash.com/photo-1614777986387-015c2a89b696?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1764315197254-94385571df22?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     popular: false,
   },
   {
@@ -53,7 +53,7 @@ const menuItems = [
     description: 'Comforting Rajma served over steamed Basmati rice',
     price: '₹110',
     type: 'veg',
-    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1668236534990-73c4ed23043c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     popular: false,
   },
 ];
@@ -132,7 +132,7 @@ export default function MenuHighlights() {
                 </div>
                 <p className="text-stone-500 text-sm mb-6 line-clamp-2">{item.description}</p>
                 <a
-                  href={`https://wa.me/1234567890?text=I want to order ${item.name}`}
+                  href={`https://wa.me/7972155233?text=I want to order ${item.name}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center bg-stone-100 hover:bg-brand-600 text-stone-900 hover:text-white font-semibold py-3 rounded-xl transition-colors"

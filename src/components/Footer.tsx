@@ -42,15 +42,15 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Phone size={20} className="text-brand-500 shrink-0" />
-                <span>+91 123 456 7890</span>
+                <span>+91 797 215 5233</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={20} className="text-brand-500 shrink-0" />
-                <span>hello@jivikaskitchen.com</span>
+                <span>foodsjivika@gmail.com</span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="text-brand-500 shrink-0" />
-                <span>123 Food Street, Foodie City, India 400001</span>
+                <span>65 Wardha Road, Nagpur, India 440015</span>
               </li>
             </ul>
           </div>

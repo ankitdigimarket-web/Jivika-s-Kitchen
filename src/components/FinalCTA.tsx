@@ -20,7 +20,7 @@ export default function FinalCTA() {
           
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 relative z-10">
             <a
-              href="https://wa.me/1234567890?text=Hi, I would like to place an order."
+              href="https://wa.me/7972155233?text=Hi, I would like to place an order."
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto bg-white text-brand-600 hover:bg-stone-50 px-8 py-4 rounded-full font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2 group"
@@ -29,7 +29,7 @@ export default function FinalCTA() {
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="tel:+911234567890"
+              href="tel:+917972155233"
               className="w-full sm:w-auto bg-transparent border-2 border-brand-400 hover:border-white text-white px-8 py-4 rounded-full font-bold text-lg transition-all flex items-center justify-center"
             >
               Call Us

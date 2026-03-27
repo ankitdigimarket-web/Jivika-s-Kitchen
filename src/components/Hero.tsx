@@ -42,7 +42,7 @@ export default function Hero() {
                 <ArrowRight size={20} />
               </a>
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/7972155233"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex justify-center items-center gap-2 bg-white border-2 border-stone-200 hover:border-brand-600 text-stone-800 hover:text-brand-600 px-8 py-4 rounded-full font-semibold text-lg transition-all"
