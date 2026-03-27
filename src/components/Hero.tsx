@@ -77,7 +77,7 @@ export default function Hero() {
               {/* Main Image */}
               <div className="absolute inset-0 rounded-full overflow-hidden border-8 border-white shadow-2xl z-10">
                 <img
-                  src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                  src="https://images.unsplash.com/photo-1710091691777-3115088962c4?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Delicious home cooked meal bowl"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
