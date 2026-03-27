@@ -18,7 +18,7 @@ export default function Footer() {
               Delivering hygienic, homely, and high-quality meals to your doorstep. Ghar jaisa khana, ab har roz.
             </p>
             <div className="flex gap-4">
-              <a href="https://www.instagram.com/foodsjivika/" className="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-brand-500 hover:text-white transition-colors">
+              <a href="#https://www.instagram.com/foodsjivika/" className="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-brand-500 hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-brand-500 hover:text-white transition-colors">
