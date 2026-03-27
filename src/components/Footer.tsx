@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Instagram, Facebook } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -6,14 +7,14 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-2">
-            <a href="#" className="flex items-center gap-2 mb-6">
+            <Link to="/" className="flex items-center gap-2 mb-6">
               <div className="w-10 h-10 bg-brand-500 rounded-full flex items-center justify-center text-white font-display font-bold text-xl">
                 JK
               </div>
               <span className="font-display font-bold text-2xl text-white tracking-tight">
                 Jivika's <span className="text-brand-500">Kitchen</span>
               </span>
-            </a>
+            </Link>
             <p className="text-stone-400 mb-6 max-w-md">
               Delivering hygienic, homely, and high-quality meals to your doorstep. Ghar jaisa khana, ab har roz.
             </p>
@@ -21,7 +22,7 @@ export default function Footer() {
               <a href="https://www.instagram.com/foodsjivika/" className="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-brand-500 hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#https://www.facebook.com/foodsjivika/" className="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-brand-500 hover:text-white transition-colors">
+              <a href="https://www.facebook.com/foodsjivika/" className="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-brand-500 hover:text-white transition-colors">
                 <Facebook size={20} />
               </a>
             </div>
@@ -30,10 +31,10 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-sm">Quick Links</h4>
             <ul className="space-y-4">
-              <li><a href="#home" className="hover:text-brand-400 transition-colors">Home</a></li>
-              <li><a href="#menu" className="hover:text-brand-400 transition-colors">Menu</a></li>
-              <li><a href="#subscriptions" className="hover:text-brand-400 transition-colors">Subscriptions</a></li>
-              <li><a href="#why-us" className="hover:text-brand-400 transition-colors">About Us</a></li>
+              <li><Link to="/" className="hover:text-brand-400 transition-colors">Home</Link></li>
+              <li><Link to="/menu" className="hover:text-brand-400 transition-colors">Menu</Link></li>
+              <li><Link to="/subscriptions" className="hover:text-brand-400 transition-colors">Subscriptions</Link></li>
+              <li><Link to="/why-us" className="hover:text-brand-400 transition-colors">About Us</Link></li>
             </ul>
           </div>
 

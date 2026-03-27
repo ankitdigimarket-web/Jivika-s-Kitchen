@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Utensils } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -34,13 +35,13 @@ export default function Hero() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="#menu"
+              <Link
+                to="/menu"
                 className="inline-flex justify-center items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all shadow-lg shadow-brand-500/30 hover:shadow-xl hover:-translate-y-1"
               >
                 View Menu
                 <ArrowRight size={20} />
-              </a>
+              </Link>
               <a
                 href="https://wa.me/7972155233"
                 target="_blank"

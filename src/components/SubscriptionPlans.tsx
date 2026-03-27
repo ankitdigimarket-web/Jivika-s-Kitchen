@@ -46,7 +46,7 @@ const plans = [
 
 export default function SubscriptionPlans() {
   return (
-    <section id="subscriptions" className="py-24 bg-stone-900 text-white">
+    <section id="subscriptions" className="pt-32 pb-24 bg-stone-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-brand-400 font-bold tracking-wide uppercase text-sm mb-3">Meal Plans</h2>
@@ -91,7 +91,7 @@ export default function SubscriptionPlans() {
               </ul>
 
               <a
-                href={`https://wa.me/1234567890?text=I want to subscribe to the ${plan.name} plan`}
+                href={`https://wa.me/7972155233?text=I want to subscribe to the ${plan.name} plan`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`block w-full text-center py-4 rounded-xl font-bold transition-colors ${

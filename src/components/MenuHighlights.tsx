@@ -66,7 +66,7 @@ export default function MenuHighlights() {
   );
 
   return (
-    <section id="menu" className="py-24 bg-stone-50">
+    <section id="menu" className="pt-32 pb-24 bg-stone-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-brand-600 font-bold tracking-wide uppercase text-sm mb-3">Our Menu</h2>
